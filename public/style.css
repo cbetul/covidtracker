@@ -1,0 +1,95 @@
+
+.navbar{
+    opacity:none;
+    border-bottom: 1.5px solid #242441;
+    
+}
+
+.entrance{
+    font-family: 'Cairo';
+    color: rgb(247, 109, 59);;
+}
+.main-info{
+    
+        font-family: 'Cairo';
+        color: black;
+ 
+}
+.card-title{
+    font-family: 'Cairo';
+
+}
+.navbar-brand{
+    transition: 0.3s;
+    font-size: 25px;
+    font-family: 'Gugi';
+    color: #242441;
+}
+
+.btn-warning {
+    background-color: rgb(247, 109, 59);
+ }
+
+
+body{
+   background-color:white;
+
+
+}
+
+html, body { 
+    max-width: 100% !important; 
+    overflow-x: hidden !important; 
+    
+}
+
+.footer{
+    background-color: #242441;
+   
+}
+ 
+div.dataTables_length,
+div.dataTables_filter,
+div.dataTables_paginate,
+div.dataTables_info {
+    padding: 8px;
+}
+
+.custom-bottom-navbar {
+    border-top: 1px solid #dddddd;
+    background-color: #242441; 
+    bottom: 0px;
+    margin-bottom: 0;
+    position: fixed !important; 
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+
+     
+  }
+  
+  .custom-bottom-navbar nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: stretch;
+  }
+  
+  .custom-bottom-navbar nav a {
+    padding: 12px 40px;
+    line-height: 1;
+    color: white; 
+    text-decoration: none;
+  }
+  
+  .custom-bottom-navbar nav a:hover {
+    background-color: rgb(247, 109, 59); 
+    color: white;
+    border-radius: 7px;
+  }
+  
+ 
+
+  
